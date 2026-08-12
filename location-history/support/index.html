@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for the Location History app on iPhone and Mac.">
+  <title>Support - Location History</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="icon" href="../assets/app-icon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell">
+      <a class="brand" href="../">
+        <img src="../assets/app-icon.png" alt="">
+        <span>Location History</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="../privacy/">Privacy</a>
+        <a href="./" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <p class="kicker">Location History</p>
+    <h1>Support</h1>
+    <p class="lede">Help with recording, iCloud sync, and your Timeline.</p>
+
+    <div class="notice">
+      <strong>Keep your location private.</strong>
+      <p>Do not post precise locations, timeline screenshots, CloudKit identifiers, or exported history in a public support request.</p>
+    </div>
+
+    <h2>During TestFlight</h2>
+    <p>For private beta feedback, open TestFlight, choose Location History, and tap <strong>Send Beta Feedback</strong>.</p>
+
+    <h2>Report a problem</h2>
+    <p>Use the guided support form for a general bug report or feature request. Reports are public, so describe the behavior without including personal location data.</p>
+    <p><a class="button" href="https://github.com/anishharis/anishharis.github.io/issues/new?template=location-history-support.yml">Open support request</a></p>
+
+    <h2>Common questions</h2>
+
+    <h3>Where is my history stored?</h3>
+    <p>New observations are saved on the iPhone first, then synchronized through the private CloudKit database belonging to the Apple account signed into iCloud. There is no separate Location History account or developer-operated location server.</p>
+
+    <h3>Why does an older day take a moment to appear?</h3>
+    <p>The app loads the selected day's point batches directly from iCloud when needed. Keep the device online and signed into iCloud. The current map remains visible while the requested day loads.</p>
+
+    <h3>Will deleting the app delete my iCloud history?</h3>
+    <p>No. Deleting the app does not delete the private iCloud library. Use the separate <strong>Delete All Location History</strong> command inside the app only when you intend to remove the library permanently.</p>
+
+    <h3>Does Motion &amp; Fitness have to be enabled?</h3>
+    <p>No. It improves activity recognition and battery decisions, but location-only recording continues to work when Motion &amp; Fitness permission is declined.</p>
+
+    <h3>How do I pause recording?</h3>
+    <p>Open Timeline and use the Pause control in the bottom panel. Existing history remains available.</p>
+
+    <h2>Privacy</h2>
+    <p>Read the complete <a href="../privacy/">Location History Privacy Policy</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell"><a href="../">Location History</a> &middot; <a href="../privacy/">Privacy</a></div>
+  </footer>
+</body>
+</html>

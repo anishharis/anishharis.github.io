@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anishharis.github.io/sitemap.xml
