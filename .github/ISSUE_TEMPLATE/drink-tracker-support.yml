@@ -1,6 +1,6 @@
-name: Drink Tracker support
+name: Drinkmark support
 description: Ask for help or suggest an improvement without sharing private health or location data.
-title: "[Drink Tracker] "
+title: "[Drinkmark] "
 labels:
   - support
 body:
@@ -13,7 +13,7 @@ body:
   - type: dropdown
     id: feature
     attributes:
-      label: Which part of Drink Tracker?
+      label: Which part of Drinkmark?
       options:
         - Logging and count controls
         - Calendar and drink-free days
