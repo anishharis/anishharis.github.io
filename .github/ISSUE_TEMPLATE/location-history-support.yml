@@ -1,15 +1,17 @@
-name: Location History support
+name: Where I Went support
 description: Report a problem or request an improvement without sharing private location data.
-title: "[Location History] "
+title: "[Where I Went] "
 labels:
   - support
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Location History. This report is public.
+        Thanks for helping improve Where I Went. This report is public.
 
         Do not include precise locations, Timeline screenshots, exported history, CloudKit identifiers, or other personal data.
+
+        For a private reply, use the [support page](https://anishharis.github.io/location-history/support/) instead.
   - type: dropdown
     id: platform
     attributes:

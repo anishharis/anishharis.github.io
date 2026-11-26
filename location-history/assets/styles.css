@@ -238,6 +238,10 @@ li + li {
   text-decoration: none;
 }
 
+.store-link {
+  margin-top: 16px;
+}
+
 .button:hover {
   filter: brightness(0.96);
 }
@@ -283,7 +287,7 @@ li + li {
   }
 
   .intro {
-    grid-template-columns: 64px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 18px;
     padding-bottom: 34px;
   }

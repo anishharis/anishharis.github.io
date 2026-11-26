@@ -1,6 +1,6 @@
-# Location History website
+# Where I Went website
 
-Static privacy and support pages for Location History on iPhone and Mac.
+Static privacy and support pages for Where I Went on iPhone and Mac.
 
 - Public site: <https://anishharis.github.io/location-history/>
 - Privacy: <https://anishharis.github.io/location-history/privacy/>
